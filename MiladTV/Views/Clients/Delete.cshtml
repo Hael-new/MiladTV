@@ -1,0 +1,12 @@
+﻿@model MiladTV.Models.Client
+
+@{
+    ViewData["Title"] = "Odstranit";
+}
+
+<p class="mt-3">Opravdu chcete vymazat client <b>@Model.Title</b>?</p>
+
+<form class="py-1" asp-action="Delete" asp-route-id="@Model.Id">
+    <button class="klienti-tlacitko" type="submit">Odstranit</button>
+    <a class="klienti-tlacitko" asp-action="Index">Zpět na seznam článků</a>
+</form>

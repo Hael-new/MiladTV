@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Reference";
+}
+
+<p>Níže naleznete ukázky mých dosavadních prací. Mohu vám nabídnout tvorbu podobného softwaru na zakázku.</p>
+
+<div id="reference">
+    <a href="~/images/kalkulacka_java.png" title="Kalkulačka v Javě" rel="lightbox[reference]">
+        <img src="~/images/kalkulacka_java_nahled.png" alt="Kalkulačka v Javě" />
+    </a>
+    <a href="~/images/miny_pascal.png" title="Miny v Pascalu" rel="lightbox[reference]">
+        <img src="~/images/miny_pascal_nahled.png" alt="Miny v Pascalu" />
+    </a>
+    <a href="~/images/hobi_web.jpg" title="Web v HTML a CSS" rel="lightbox[reference]">
+        <img src="~/images/hobi_web_nahled.jpg" alt="Web v HTML a CSS" />
+    </a>
+</div>
+<!-- Zbytek obsahu... -->
+@section CSS {
+    <link rel="stylesheet" href="~/lib/lightbox2/css/lightbox.min.css" asp-append-version="true" />
+}
+
+@section Scripts {
+    <script src="~/lib/lightbox2/js/lightbox.min.js" asp-append-version="true"></script>
+}

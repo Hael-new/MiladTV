@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Kontakt";
+}
+<form asp-action="SendMessage" method="post">
+    <label>Jméno:</label><br />
+    <input type="text" name="Name" required /><br />
+   
+
+    <label>Email:</label><br />
+    <input type="email" name="Email" required /><br />
+    <label>Telefon:</label><br />
+    <input type="text" name="Telefon" required /><br />
+
+    <label>Zpráva:</label><br />
+    <textarea name="Message" required></textarea><br />
+
+    <button type="submit">Odeslat</button>
+</form>
+<p>    </p>
+<p>    </p>
+<h2> Mužete napsat :</h2>
+<p>
+                                email:milad111220066@gmail.com
+</p>
+
+<h2> Zavolat:</h2>
+<p>                           tel.775335761   </p>
